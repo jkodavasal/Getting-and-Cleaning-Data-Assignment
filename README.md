@@ -6,3 +6,5 @@ The goal of this assignment is to work with datasets containing measurements fro
 1. Uses descriptive activity names to name the activities in the data set
 1. Appropriately labels the data set with descriptive variable names.
 1. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+Run run_analysis.R within a folder, that also contains the "UCI HAR Dataset" folder which is unzipped from the downloaded zip file. The script writes out three tab-separated .txt data files. X.txt, and y.txt contain the merged and subsetted (on mean and std) data by combining X_train.txt and X_test.txt (
