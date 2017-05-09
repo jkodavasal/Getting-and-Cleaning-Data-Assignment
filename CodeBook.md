@@ -22,6 +22,15 @@
 * tidy_df: obtained by performing a dcast operation (from reshape2 library) on messy_df_melt, where the variable means are obtained based on Subject and Activity Name. -- this DF has 180 rows and 68 columns
 * tidy_df is written to a file called tidy.txt for submission to Coursera.
 
+# Location of files used (with respect to the base project folder)
+* /                      :        run_analysis.R,  UCI HAR Dataset
+* /UCI HAR Dataset       :        train, test, activity_labels.txt, features.txt
+* /UCI HAR Dataset/train/:        X_train.txt, y_train.txt, subject_train.txt
+* /UCI HAR Dataset/test/ :        X_test.txt,  y_test.txt,  subject_test.txt
+
+Note: the Inertial Signals sub-folder under train and test folders is not used in this work
+
+
 # Variable names in the tidy data set
 Factor variables: Subject (30 LEVELS: goes from 1-30), ActivityName (6 LEVELS: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
 
