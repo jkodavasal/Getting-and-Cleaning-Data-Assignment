@@ -34,27 +34,28 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ,tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
-std(): Standard deviation
+* mean(): Mean value
+* std(): Standard deviation
 
 Resulting in all 66 variables per observation
 
@@ -62,41 +63,41 @@ There are 10299 observations in all over all the 6 activities for the 30 subject
 
 The below are the 66 variables:
 
-tBodyAccMag.std
-tGravityAccMag.mean
-tGravityAccMag.std
-tBodyAccJerkMag.mean
-tBodyAccJerkMag.std
-tBodyGyroMag.mean
-tBodyGyroMag.std
-tBodyGyroJerkMag.mean
-tBodyGyroJerkMag.std
-fBodyAcc.mean.X
-fBodyAcc.mean.Y
-fBodyAcc.mean.Z
-fBodyAcc.std.X
-fBodyAcc.std.Y
-fBodyAcc.std.Z
-fBodyAccJerk.mean.X
-fBodyAccJerk.mean.Y
-fBodyAccJerk.mean.Z
-fBodyAccJerk.std.X
-fBodyAccJerk.std.Y
-fBodyAccJerk.std.Z
-fBodyGyro.mean.X
-fBodyGyro.mean.Y
-fBodyGyro.mean.Z
-fBodyGyro.std.X
-fBodyGyro.std.Y
-fBodyGyro.std.Z
-fBodyAccMag.mean
-fBodyAccMag.std
-fBodyBodyAccJerkMag.mean
-fBodyBodyAccJerkMag.std
-fBodyBodyGyroMag.mean
-fBodyBodyGyroMag.std
-fBodyBodyGyroJerkMag.mean
-fBodyBodyGyroJerkMag.std
+* tBodyAccMag.std
+* tGravityAccMag.mean
+* tGravityAccMag.std
+* tBodyAccJerkMag.mean
+* tBodyAccJerkMag.std
+* tBodyGyroMag.mean
+* tBodyGyroMag.std
+* tBodyGyroJerkMag.mean
+* tBodyGyroJerkMag.std
+* fBodyAcc.mean.X
+* fBodyAcc.mean.Y
+* fBodyAcc.mean.Z
+* fBodyAcc.std.X
+* fBodyAcc.std.Y
+* fBodyAcc.std.Z
+* fBodyAccJerk.mean.X
+* fBodyAccJerk.mean.Y
+* fBodyAccJerk.mean.Z
+* fBodyAccJerk.std.X
+* fBodyAccJerk.std.Y
+* fBodyAccJerk.std.Z
+* fBodyGyro.mean.X
+* fBodyGyro.mean.Y
+* fBodyGyro.mean.Z
+* fBodyGyro.std.X
+* fBodyGyro.std.Y
+* fBodyGyro.std.Z
+* fBodyAccMag.mean
+* fBodyAccMag.std
+* fBodyBodyAccJerkMag.mean
+* fBodyBodyAccJerkMag.std
+* fBodyBodyGyroMag.mean
+* fBodyBodyGyroMag.std
+* fBodyBodyGyroJerkMag.mean
+* fBodyBodyGyroJerkMag.std
 
 
 
