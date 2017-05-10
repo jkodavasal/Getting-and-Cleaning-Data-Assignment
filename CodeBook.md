@@ -12,6 +12,7 @@
 * featureNames: featureName_df as a character vector of feature names
 * colIndices: numeric vector containing the 66 indeces from featureNames that have either a mean() or std() in their name
 * X_merged_extract: a subset of X_merged only containing the columns corresponding to measurements with mean() or std() in their names
+* Using the colnames function, the column names of X_merged_extract are assigned to the corresponding feature names from featureNames to be descriptive.
 * activity_labels_df: a DF containing the activity numbers and their corresponding names, read from activity_labels.txt
 * activity.code: a character vector containing the strings corresponding to the activity names
 * y_merged_labels_char: a character vector of length equal to the total number of observations which contains the activity names corresponding to the activity codes in y_merged
@@ -23,7 +24,7 @@
 * tidy_df is written to a file called tidy.txt for submission to Coursera.
 
 # Location of files used (with respect to the base project folder)
-* /                      :        run_analysis.R,  UCI HAR Dataset
+* /                      :        run_analysis.R,  UCI HAR Dataset, and the output files written by run_analysis.R: X.txt, y.txt, tidy.txt 
 * /UCI HAR Dataset       :        train, test, activity_labels.txt, features.txt
 * /UCI HAR Dataset/train/:        X_train.txt, y_train.txt, subject_train.txt
 * /UCI HAR Dataset/test/ :        X_test.txt,  y_test.txt,  subject_test.txt
