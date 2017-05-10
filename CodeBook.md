@@ -1,4 +1,4 @@
-# run_analysis.R
+# run_analysis.R: required libraries: reshape, reshape2
 * X_train: Data Frame (DF) that contains data read from X_train.txt
 * y_train: DF that contains data read from y_train.txt
 * X_test: DF that contains data read from X_test.txt
